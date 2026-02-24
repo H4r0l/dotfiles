@@ -1,0 +1,80 @@
+#################################
+# GLOBAL SETTINGS
+#################################
+
+[global]
+
+### Display ###
+monitor = 0
+follow = mouse
+origin = top-right
+offset = (20, 20)
+width = 320
+height = (0, 300)
+notification_limit = 5
+
+### Text ###
+font = JetBrainsMono Nerd Font 9.5
+line_height = 3
+markup = yes
+format = "<b>%s</b>\n%b"
+alignment = left
+vertical_alignment = center
+word_wrap = yes
+ellipsize = middle
+show_age_threshold = 60
+
+### Icons ###
+icon_position = left
+min_icon_size = 24
+max_icon_size = 48
+
+### Spacing / Shape ###
+padding = 10
+horizontal_padding = 12
+separator_height = 1
+frame_width = 1
+corner_radius = 14
+
+### Behavior ###
+sort = yes
+idle_threshold = 120
+timeout = 6
+stack_duplicates = true
+hide_duplicate_count = false
+history_length = 20
+
+### Mouse ###
+mouse_left_click = close_current
+mouse_middle_click = do_action
+mouse_right_click = close_all
+
+#################################
+# MUTED SOLARIZED DARK RED PALETTE
+# Using RGBA for subtle transparency
+#################################
+
+# base_bg:  #002b36cc  (semi-transparent dark background)
+# alt_bg:   #073642cc
+# text:     #c7d0d2ff
+# muted:    #93a1a1ff
+# soft_red: #7a1b27cc
+# border:   #4a161ccc
+
+[urgency_low]
+background = "#002b36cc"     # slightly transparent base
+foreground = "#93a1a1ff"
+frame_color = "#4a161ccc"
+timeout = 4
+
+[urgency_normal]
+background = "#002b36cc"
+foreground = "#c7d0d2ff"
+frame_color = "#7a1b27cc"
+timeout = 6
+
+[urgency_critical]
+background = "#002b36cc"
+foreground = "#ffffffff"
+frame_color = "#8f2432cc"
+timeout = 0
