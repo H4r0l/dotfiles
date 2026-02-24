@@ -1,0 +1,72 @@
+# 
+# ███████╗██╗    ██╗ █████╗ ██╗   ██╗██╗      ██████╗  ██████╗██╗  ██╗
+# ██╔════╝██║    ██║██╔══██╗╚██╗ ██╔╝██║     ██╔═══██╗██╔════╝██║ ██╔╝
+# ███████╗██║ █╗ ██║███████║ ╚████╔╝ ██║     ██║   ██║██║     █████╔╝ 
+# ╚════██║██║███╗██║██╔══██║  ╚██╔╝  ██║     ██║   ██║██║     ██╔═██╗ 
+# ███████║╚███╔███╔╝██║  ██║   ██║   ███████╗╚██████╔╝╚██████╗██║  ██╗
+# ╚══════╝ ╚══╝╚══╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝
+#
+# Swaylock Config File by Arfan Zubi
+#
+
+ignore-empty-password
+
+clock
+timestr=%R
+datestr=%a, %e. %B
+
+screenshots
+
+fade-in=0.1
+
+effect-blur=20x2
+effect-scale=0.3
+
+indicator
+indicator-radius=240
+indicator-thickness=20
+indicator-caps-lock
+
+# --- Solarized Dark base ---
+# base03 = 002b36
+# base02 = 073642
+# base01 = 586e75
+# base0  = 839496
+# base1  = 93a1a1
+
+# --- Dark Red accent ---
+# main red = 8b1e2d
+# soft red = a12a3a
+
+key-hl-color=8b1e2d
+separator-color=8b1e2d
+
+inside-color=002b36
+inside-clear-color=002b36
+inside-caps-lock-color=002b36
+inside-ver-color=002b36
+inside-wrong-color=002b36
+
+ring-color=073642
+ring-clear-color=073642
+ring-caps-lock-color=a12a3a
+ring-ver-color=586e75
+ring-wrong-color=8b1e2d
+
+line-color=073642
+line-clear-color=073642
+line-caps-lock-color=a12a3a
+line-ver-color=586e75
+line-wrong-color=8b1e2d
+
+text-color=93a1a1
+text-clear-color=839496
+text-caps-lock-color=a12a3a
+text-ver-color=93a1a1
+text-wrong-color=8b1e2d
+
+bs-hl-color=8b1e2d
+caps-lock-key-hl-color=a12a3a
+caps-lock-bs-hl-color=a12a3a
+
+disable-caps-lock-text

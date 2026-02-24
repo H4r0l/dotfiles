@@ -1,0 +1,101 @@
+# ========================
+# OS junk
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Editor / IDE
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+# WhatsApp Desktop runtime data
+WhatsApp Desktop/
+
+# Chrome user data
+gh/
+google-chrome/
+google chrome/
+JetBrains/
+Atom-ng/
+chromium/
+mozilla/
+Electron/
+discord/
+WhatsApp Desktop/
+Vampire_Survivors*
+retroarch/
+unity3d/
+spotify/
+mozilla/
+# =========================
+
+# Session / state
+# =========================
+session/
+dconf/
+
+# =========================
+# Logs / temp
+# =========================
+*.log
+*.cache
+# =========================
+# Session / state
+# =========================
+session/
+dconf/
+
+# =========================
+# Logs / temp
+# =========================
+*.log
+*.cache
+
+
+# ========================
+# Shell history (never version this)
+# ========================
+.bash_history
+.zsh_history
+.history
+
+# ========================
+# SSH / GPG / secrets
+# ========================
+.ssh/
+.gnupg/
+*.pem
+*.key
+*.crt
+.env
+.env.*
+
+# ========================
+# Cache / state
+# ========================
+.cache/
+.local/share/Trash/
+.local/state/
+
+# ========================
+# Package managers
+# ========================
+node_modules/
+vendor/
+
+# ========================
+# Logs
+# ========================
+*.log
+
+# ========================
+# Hyprland / Wayland runtime
+# ========================
+hyprland.log
+
+
+
