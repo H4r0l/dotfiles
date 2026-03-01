@@ -4,26 +4,26 @@
 	"position": "top",
 	"modules-left": [
 		"hyprland/workspaces",
-        "hyprland/window",
+        	"hyprland/window",
 		"keyboard-state",
 	],
 	"modules-center": [
-        "tray",
-        "clock#3",
+        	"tray",
+        	"clock#3",
 		"custom/weather",
 	],
 	"modules-right": [
 		"pulseaudio",
 		"network",
-        "custom/wlogout"
+        	"custom/wlogout"
 	],
 	"tray": {
-		"icon-size": 15
+		"icon-size": 17
 	},
     "custom/wlogout": {
-        "format": " ⏻  ",
-        "on-click": "wlogout",
-        "tooltip": false
+        	"format": " ⏻  ",
+        	"on-click": "wlogout",
+        	"tooltip": true
     },
     "hyprland/workspaces": {
         "format": "{icon}",
@@ -50,27 +50,27 @@
 	},
 	"pulseaudio": {
 		"format": " {icon}  {volume:2}% {format_source} ",
-		"format-bluetooth": "{icon}  {volume}% ",
+		"format-bluetooth": "{icon}  {volume}%    ",
 		"format-muted": "MUTE",
-		"format-source": " {volume}%",
-		"format-source-muted": "",
+		"format-source": "  {volume}%",
+		"format-source-muted": "  ",
 		"format-icons": {
-			"headphones": "",
+			"headphones": "   ",
 			"default": [
-				"",
-				""
+				"   ",
+				"   "
 			]
 		},
 		"scroll-step": 5,
 		"on-click": "pavucontrol"
 	},
   "network": {
-	"format-wifi": " ({signalStrength}%)  ",
-	"format-ethernet": " 📶 ",
-	"tooltip-format": "{gwaddr}",
-	"format-linked": "{ifname} (No IP) ",
-	"format-disconnected": "  ⚠  ",
-	"format-alt": "{ipaddr}"
+	"format-wifi": " ({signalStrength}%)   ",
+	"format-ethernet": "     ",
+	"tooltip-format": " {gwaddr} ",
+	"format-linked": " {ifname} (No IP)   ",
+	"format-disconnected": "  ⚠   ",
+	"format-alt": " {ipaddr} "
 	},
 	"custom/weather": {
     "format": " {} °",
