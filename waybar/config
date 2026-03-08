@@ -49,16 +49,16 @@
   	"tooltip-format": " <tt><big>{calendar}</big>{}</tt> "
 	},
 	"pulseaudio": {
-		"format": " {icon}  {volume:2}% {format_source} ",
+		"format": "{icon}  {volume:2}% {format_source} ",
 		"format-bluetooth": "{icon}  {volume}%    ",
 		"format-muted": "MUTE",
 		"format-source": "  {volume}%",
 		"format-source-muted": "  ",
 		"format-icons": {
-			"headphones": "   ",
+			"headphones": "  ",
 			"default": [
-				"   ",
-				"   "
+				"  ",
+				"  "
 			]
 		},
 		"scroll-step": 5,
