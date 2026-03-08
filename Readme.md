@@ -21,3 +21,7 @@ yay -S --needed - < yay-packages.txt
 ```
 
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/392ffaa2-fa72-4854-9c1f-38e3b4bf9b12" />
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/2db49b12-0dec-4035-b728-befe51600a9c" />
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/9d44b095-c899-4f07-ae45-1d996e7d61bf" />
